@@ -2,8 +2,6 @@ var v=true;
 var i=0;
 class GuessingGame {
     constructor() {}
-
-    
     setRange(min, max) {
         this.min = min;
         this.max = max;
@@ -22,7 +20,5 @@ class GuessingGame {
         this.min = this.value;
     }
 }
-
-module.exports = GuessingGame;
 
 module.exports = GuessingGame;
